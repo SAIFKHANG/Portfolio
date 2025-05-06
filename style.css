@@ -1,0 +1,259 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav {
+    width: 100%;
+    height: 100px;
+    padding: 44px; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1.5px solid grey;
+}
+.nav-logo {
+    font-size: 32px;
+}
+.nav-logo span {
+    font-weight: 600;
+}
+.nav-heading {
+    display: flex; 
+}
+
+.nav-heading a {
+    font-size: 20px;
+    padding: 1.7vw;
+    color: black;
+    text-decoration: none;
+}
+.nav-heading a:hover{
+    cursor: pointer;
+    text-decoration:underline;
+}
+
+.container{
+   
+   height:87vh;
+   width: 100%;
+   /* border: 10px solid black; */
+   display: flex;
+}
+.container .container-left{
+    height: 100%;
+    width: 50%;
+   
+}
+.container-left h1{
+    font-size: 60px;
+    margin-top: 12%;
+    margin-left: 5%;
+    margin-bottom: 2%;
+}
+.container-left p {
+    color: #393AB6;
+}
+.container-left span {
+    font-size: 25px;
+    margin-left: 5%;
+    margin-top: 20px;
+}
+.container-left .loremtype{
+    color: black;
+    font-size: 20px;
+    margin: 38px;
+    margin-bottom: 4px;
+
+}
+.button {
+    height: 80px;
+    width: 270px;
+    margin-left: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.button a {
+    font-size: 20px;
+    padding: 5px 20px;
+    border: 2px solid black;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    border-radius: 7px ;
+}
+.button a:hover{
+    box-shadow: rgba(59, 5, 197, 0.742) 0px 22px 70px 4px;
+}
+.social-icon{
+    width:21%;
+    height: 70px;
+    margin-left: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.social-icon i {
+    font-size: 40px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+.social-icon i:hover{
+    box-shadow: rgba(59, 5, 197, 0.742) 0px 22px 70px 4px;
+}
+.container .container-right{
+    height: 100%;
+    width: 50%;
+   
+}
+.container-right img {
+    height: 100%;
+    width: 100%;
+}
+.sec-container{
+    width: 100%;
+    height: 100vh;
+    /* border: 2px solid black; */
+    /* background-color: rgb(213, 215, 85); */
+}
+.sec-container h1{
+    margin-left: 40vw;
+    margin-top: 25px;
+    font-size: 50px;
+    color: rgb(231, 75, 101);
+}
+.sec-container p{
+    margin: 3vw 24vw;
+    font-size: 23px;
+}
+.sec-container p span{
+    color: blue;
+    font-size: 25px;
+}
+
+.sec-container .download{
+    margin-top: 50px;
+    margin-left: 34vw;
+}
+.download button{
+    font-size: 18px;
+    padding: 15px 25px;
+    border-radius: 7px ;
+    cursor: pointer;
+    border: 1px solid black;
+}
+.download button:hover{
+    box-shadow: rgba(192, 180, 15, 0.696) 0px 22px 70px 4px;
+}
+.three-container{
+    /* border: 2px solid black; */
+    width: 100%;
+    height: 300px;
+    margin-top: 30px;
+    display: flex;
+}
+/* first container */
+.three-container .three-first{
+    border: 1px solid black;
+    width: 25%;
+    height:180px ;
+    margin-left: 7vw;
+    margin-top: 2.5vw;
+    border-radius: 10px;
+}
+.three-first:hover{
+    box-shadow: rgba(80, 40, 181, 0.742) 0px 22px 70px 4px;
+}
+.three-first .three-icon{
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 70px;
+    margin-top: 10%;
+}
+.three-icon i{
+    font-size: 40px;
+    margin-left: 30px;
+    margin-right: 30px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.three-first h4{
+    font-size:25px ;
+    margin-top: 10px;
+    margin-left: 20px;
+    font-weight: 200;
+}
+
+
+/* second container */
+.three-container .three-sec{
+    border: 1px solid black;
+    width: 25%;
+    height:180px ;
+    margin-left: 4vw;
+    margin-top: 2vw;
+    border-radius: 10px;
+}
+.three-container .three-sec:hover{
+    box-shadow: rgba(80, 40, 181, 0.742) 0px 22px 70px 4px;
+}
+.three-sec .three-sec-icon{
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 70px;
+    margin-top: 10%;
+}
+
+.three-sec-icon i{
+    font-size: 40px;
+    margin-left: 20px;
+    margin-right: 30px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.three-sec h4{
+    
+    font-size:25px ;
+    margin-top: 10px;
+    margin-left: 20px;
+    font-weight: 200;
+}
+
+/* third container */
+.three-container .three-three{
+    border: 1px solid black;
+    width: 25%;
+    height:180px ;
+    margin-left: 4vw;
+    margin-top: 2vw;
+    border-radius: 10px;
+}
+.three-container .three-three:hover{
+    box-shadow: rgba(80, 40, 181, 0.742) 0px 22px 70px 4px;
+}
+.three-three .three-three-icon{
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 70px;
+    margin-top: 10%;
+}
+.three-three-icon i{
+    
+    font-size: 40px;
+    margin-left: 20px;
+    margin-right: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.three-three h4{
+    font-size:25px ;
+    margin-top: 10px;
+    margin-left: 20px;
+    font-weight: 200;
+}
