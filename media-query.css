@@ -105,4 +105,21 @@
         height: 51px;
         margin-top: 6%;
     }
+    .project-image{
+        flex-direction: column;
+        gap: 5px;
+
+    }
+    .img-first {
+        width: 310px;
+    }
+    .img-sec{
+        width: 310px;
+    }
+    .img-third{
+        width: 310px;
+    }
+    .project-container{
+        height: 180vh;
+    }
 }

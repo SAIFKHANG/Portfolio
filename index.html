@@ -19,8 +19,8 @@
         <h4>Contact</h4> -->
         <a href="#">Home</a>
         <a href="#h">About</a>
-        <a href="#">Projects</a>
-        <a href="#">Contact</a>
+        <a href="#hh">Projects</a>
+        <a href="#" onclick="alert('This section is not developed yet.')">Contact</a>
        </div>
 
     </nav>
@@ -32,8 +32,8 @@
             <p class= "loremtype">Passionate about exploring  technologies and building innovative solutions.Enhancing  digital experiences that are smooth, scalable, and made to impress.</p>
 
             <div class="button">
-                <a href="#">Projects</a>
-                <a href="#">Contact</a>
+                <a href="#hh">Projects</a>
+                <a href="#" onclick="alert('The contact section is under development.')">Contact</a>
             </div>
             <div class="social-icon">
                 <i class="fa-brands fa-github" onclick="document.location='https://github.com/SAIFKHANG'"></i>
@@ -54,11 +54,11 @@
             <h1 id="h">About Me</h1>
             <p>Hello, I'm <span>Md Saif</span> passionate about building smart and scalable web applications. I am currently learning a full-stack development course and constantly explore new technologies to refine my skills. Focused on continuous learning, I aim to transition into the IT industry in couple years and eventually move towards tech world.</p>
             <div class="download">
-               <button><i class="fa-solid fa-file" id="download-cv"></i>  Download CV</button>
-               <button><i class="fa-solid fa-code"></i>  View projects</button>
+               <button onclick="alert('The CV has not generated yet')"><i class="fa-solid fa-file" id="download-cv"></i>  Download CV</button>
+               <button onclick="document.location='#hh'"><i class="fa-solid fa-code"></i>  View projects</button>
             </div>
             <div class="three-container">
-                <div class="three-first">
+                <div class="three-first" onclick="document.location='#hh'">
                     <div class="three-icon">
                         <i class="fa-solid fa-code"> 3 </i>
                     </div>
@@ -66,14 +66,14 @@
                 </div>
 
 
-                <div class="three-sec">
+                <div class="three-sec" onclick="alert('The certifications section has not created yet ')">
                     <div class="three-sec-icon">
                         <i class="fa-solid fa-certificate">3</i>
                     </div>
                     <h4>Certificates Own</h4>
                 </div>
 
-                <div class="three-three">
+                <div class="three-three" onclick="alert('The Experience section has not created yet')">
                     <div class="three-three-icon">
                         <i class="fa-solid fa-globe">0</i>
                     </div>
@@ -81,8 +81,35 @@
                 </div>
             </div>
         </div>
-            
 
+    <!-- third container -->
+            
+        <div class="project-container" id="hh">
+          <h1>Projects</h1>
+          <p>Explore my journey through projects, certifications, and technical expertise. Each section represents a milestone in my continuous learning path.</p>
+           <div class="project-image">
+                <div class="img-first">
+                    <img src="./starbucks image.webp" alt="starbucks image">
+                    <h3>Starbucks Clone</h3>
+                    <p> A Starbucks clone designed to replicate the seamless experience of the world’s favorite coffeehouse.</p>
+                    <button onclick="document.location='https://saifkhang.github.io/Starbucks-Clone-Project/'">Visit <i class="fa-solid fa-arrow-right"></i></button>
+                </div>
+                <div class="img-sec">
+                    <img src="./calculator.avif" alt="calculator image">
+                    <h3>Calculator</h3>
+                    <p>A Smart User-Friendly Calculator
+                        interactive calculator inspired by modern design and functionality.</p>
+                    <button onclick="document.location='https://saifkhang.github.io/Project_calculator/'">Visit <i class="fa-solid fa-arrow-right"></i></button>
+                </div>
+                <div class="img-third">
+                    <img src="./sign-up.avif" alt="sign-up form image">
+                    <h3>Sign-up form</h3>
+                    <p>A Clean & Secure Registration Form designed to deliver a seamless user registration experience.</p>
+                    <button onclick="document.location='https://saifkhang.github.io/signup-project/'">Visit <i class="fa-solid fa-arrow-right"></i></button>
+                </div>
+           </div>
+        </div>
+        
      <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
      <script>
         var typed = new Typed('#element', {
